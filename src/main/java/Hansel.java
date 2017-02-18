@@ -89,7 +89,7 @@ public class Hansel {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        File mappingFile = new File("/Users/racit-2105/Desktop/mapping.txt");
+        File mappingFile = new File("/Users/Hitesh Sethiya/Desktop/mapping.txt");
         createMap(mappingFile);
         String input = in.nextLine();
         int fnNameStartsAt = input.lastIndexOf(".");

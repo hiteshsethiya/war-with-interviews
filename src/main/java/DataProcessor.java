@@ -7,7 +7,7 @@
 //import java.math.BigInteger;
 //
 ///**
-// * @author Hitesh Sethiya
+// * @author MicroDirections
 // */
 //public class DataProcessor implements Runnable {
 //
@@ -65,7 +65,7 @@
 //    }
 //
 //    public void processDataStream() throws IOException {
-////        File file = new File("/Users/racit-2105/Desktop/sattva-08-30-12-40-45.txt");
+////        File file = new File("/Users/Hitesh Sethiya/Desktop/sattva-08-30-12-40-45.txt");
 ////        FileInputStream fileInputStream = new FileInputStream(file);
 ////        InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
 ////        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);

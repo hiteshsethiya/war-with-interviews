@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 22/12/16.
+ * Created by Hitesh Sethiya on 22/12/16.
  */
 public class MaxMinSum {
 

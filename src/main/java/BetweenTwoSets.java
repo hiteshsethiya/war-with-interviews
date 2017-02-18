@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 02/01/17.
+ * Created by Hitesh Sethiya on 02/01/17.
  * https://www.hackerrank.com/challenges/between-two-sets
  * Though this problem can be solved with bruteforce, there is a nice fast solution.
  is divisible by all numbers of  if and only if it is divisible by their least common multiple. Denote it as .

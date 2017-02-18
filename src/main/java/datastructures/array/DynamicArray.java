@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 06/02/17.
+ * Created by Hitesh Sethiya on 06/02/17.
  */
 public class DynamicArray {
 

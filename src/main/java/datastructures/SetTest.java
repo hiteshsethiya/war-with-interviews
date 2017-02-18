@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * Created by racit-2105 on 18/01/17.
+ * Created by Hitesh Sethiya on 18/01/17.
  */
 public class SetTest {
     public static void main(String[] args) {

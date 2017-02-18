@@ -1,7 +1,7 @@
 package mathe;
 
 /**
- * Created by racit-2105 on 09/02/17.
+ * Created by Hitesh Sethiya on 09/02/17.
  */
 public class GCD {
     static int gcd(int a, int b) {

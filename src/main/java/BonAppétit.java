@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 03/01/17.
+ * Created by Hitesh Sethiya on 03/01/17.
  * https://www.hackerrank.com/challenges/bon-appetit?h_r=next-challenge&h_v=zen
  */
 public class BonAppétit {

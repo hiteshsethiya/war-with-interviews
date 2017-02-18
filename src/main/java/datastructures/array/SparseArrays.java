@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 07/02/17.
+ * Created by Hitesh Sethiya on 07/02/17.
  */
 public class SparseArrays {
     public static void main(String[] args) {

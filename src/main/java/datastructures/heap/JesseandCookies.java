@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 09/02/17.
+ * Created by Hitesh Sethiya on 09/02/17.
  */
 public class JesseandCookies {
     public static int parent(int i) {

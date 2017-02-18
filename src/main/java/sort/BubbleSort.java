@@ -1,7 +1,7 @@
 package sort;
 
 /**
- * Created by racit-2105 on 25/01/17.
+ * Created by Hitesh Sethiya on 25/01/17.
  */
 public class BubbleSort {
 

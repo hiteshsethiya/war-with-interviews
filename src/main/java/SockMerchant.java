@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * Created by racit-2105 on 03/01/17.
+ * Created by Hitesh Sethiya on 03/01/17.
  * https://www.hackerrank.com/challenges/sock-merchant?h_r=next-challenge&h_v=zen
  */
 public class SockMerchant {

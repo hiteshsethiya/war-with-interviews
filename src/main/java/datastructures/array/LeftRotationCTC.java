@@ -3,7 +3,7 @@ package datastructures.array;
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 10/02/17.
+ * Created by Hitesh Sethiya on 10/02/17.
  * 2nd method using a new array and index shifts
  */
 public class LeftRotationCTC {

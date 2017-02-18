@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 05/01/17.
+ * Created by Hitesh Sethiya on 05/01/17.
  * https://www.hackerrank.com/challenges/strange-advertising
  */
 public class ViralAdvertising {

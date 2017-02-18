@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 09/01/17.
+ * Created by Hitesh Sethiya on 09/01/17.
  * https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited?h_r=next-challenge&h_v=zen
  */
 public class JumpingontheCloudsRevisited {

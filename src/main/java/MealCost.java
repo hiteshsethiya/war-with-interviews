@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by racit-2105 on 20/01/17.
+ * Created by Hitesh Sethiya on 20/01/17.
  */
 public class MealCost {
     public static void main(String[] args) {
