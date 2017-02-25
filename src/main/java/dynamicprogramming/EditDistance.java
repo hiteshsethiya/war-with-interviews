@@ -86,24 +86,15 @@ public class EditDistance {
                     arr[i][j] = new CostOp(j,Operation.INS); //Create String b from an empty string will have j insertions at the jth character
                 } else if(j == 0) {
                     arr[i][j] = new CostOp(i,Operation.DEL); //Create an Empty String from string a will have i deletions at the ith character
+                } else if(charAt(a,i) == charAt(b,j)) {
+                    arr[i][j]  = new CostOp(costOf(arr,i-1,j-1) + Operation.CPY.cost,Operation.CPY); //Create the instance only if required.
                 } else {
                     //Last possibilities
-
-                    CostOp delete = new CostOp(Operation.DEL.cost,Operation.DEL), // new objects to find minimum and add it at arr[i][j]
-                            insert =  new CostOp(Operation.INS.cost,Operation.INS),
-                            substitute = new CostOp(Operation.SUB.cost,Operation.SUB);
-
-                    delete.cost = costOf(arr,i - 1,j) + Operation.DEL.cost; //Go up
-                    insert.cost = costOf(arr,i,j - 1) + Operation.INS.cost; //Go left
-                    substitute.cost = costOf(arr,i-1,j-1) + Operation.SUB.cost; // go diagonal
-
-                    if(charAt(a,i) == charAt(b,j)) {
-                        CostOp copy = new CostOp(0,Operation.CPY); //Create the instance only if required.
-                        copy.cost = costOf(arr,i-1,j-1) + Operation.CPY.cost;
-                        arr[i][j] = CostOp.min(CostOp.min(substitute,copy),CostOp.min(delete,insert));
-                    } else {
-                        arr[i][j] = CostOp.min(substitute,CostOp.min(delete,insert)); //Minimum of all should be the cost until i,jth sequence
-                    }
+                    // new objects to find minimum and add it at arr[i][j]
+                    CostOp delete = new CostOp(costOf(arr,i - 1,j) + Operation.DEL.cost,Operation.DEL), //Go up
+                            insert =  new CostOp(costOf(arr,i,j - 1) + Operation.INS.cost,Operation.INS), //Go left
+                            substitute = new CostOp(costOf(arr,i-1,j-1) + Operation.SUB.cost,Operation.SUB); //go diagonal
+                    arr[i][j] = CostOp.min(substitute,CostOp.min(delete,insert)); //Minimum of all should be the cost until i,jth sequence
                 }
             }
         }
